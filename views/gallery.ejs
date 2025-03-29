@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<h1 class="text-center mb-4">Galeria Zdjęć</h1>
+
+<div class="gallery-grid">
+    <img src="/images/rynek.jpg" alt="Rynek Wrocławski">
+    <img src="/images/panorama_raclawicka.jpg" alt="Panorama Racławicka">
+    <img src="/images/hala_stulecia.jpg" alt="Hala Stulecia">
+    <img src="/images/ostrow_tumski.jpg" alt="Ostrów Tumski">
+    <img src="/images/most_grunwaldzki.jpg" alt="Most Grunwaldzki">
+    <img src="/images/ratusz.jpg" alt="Ratusz Wrocławia">
+</div>
+
+<div id="imageModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <button id="prev" class="arrow left">&lt;</button>
+        <img id="modalImage" src="" alt="Image">
+        <button id="next" class="arrow right">&gt;</button>
+    </div>
+</div>
+
+<%- include('partials/footer') %>
